@@ -54,6 +54,18 @@ a[href^="tel:"] {
     padding: 30px 5px;
 }
 
+.fixed-height-div {
+  min-height: 440px;
+  max-height: 440px;
+}
+
+@media (min-width: 992px) {
+  .fixed-height-div {
+    min-height: 820px;
+    max-height: 820px;
+  }
+}
+
 /* .navbar {
     min-height: 80px;
 } */
